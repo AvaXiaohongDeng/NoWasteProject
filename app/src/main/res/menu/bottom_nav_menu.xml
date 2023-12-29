@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_search1"
+        android:icon="@drawable/ic_notifications1"
+        android:title="All Expired Foods" />
+
+    <item
+        android:id="@+id/navigation_search2"
+        android:icon="@drawable/ic_notifications2"
+        android:title="Foods Will Expire Tomorrow" />
+
+</menu>

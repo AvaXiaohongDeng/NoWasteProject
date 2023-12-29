@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_search1">
+
+    <fragment
+        android:id="@+id/navigation_search1"
+        android:name="project.st991517517.xiaohong.notification.Search1Fragment"
+        android:label="All Expired Foods"
+        tools:layout="@layout/fragment_search1" />
+
+    <fragment
+        android:id="@+id/navigation_search2"
+        android:name="project.st991517517.xiaohong.notification.Search2Fragment"
+        android:label ="Foods Will Expire Tomorrow"
+        tools:layout="@layout/fragment_search2" />
+</navigation>
